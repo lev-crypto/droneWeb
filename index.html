@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CropHover - Disease Detection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar-left">
+                <a href="index.html" class="brand">CropHover</a>
+            </div>
+            <div class="navbar-right">
+                <a href="about-drone.html">Drone</a>
+                <a href="about-founders.html">Founders</a>
+                <a href="#plant-info">Plant Details</a>
+                <a href="#map-section">Infected Image</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="slider">
+        <div class="slides">
+            <img src="dr_im1.jpg" alt="Drone Image 1">
+            <img src="dr_img2.jpg" alt="Drone Image 2">
+            <img src="dr_img3.jpg" alt="Drone Image 3">
+        </div>
+    </section>
+
+    <section id="plant-info">
+        <h2>Plant Details</h2>
+        <div id="plant-details">
+            <p><strong>Plant Name:</strong> <span id="plant-name">Loading...</span></p>
+            <p><strong>Predicted Disease:</strong> <span id="disease-name">Loading...</span></p>
+            <p><strong>Confidence:</strong> <span id="confidence">Loading...</span></p>
+        </div>
+    </section>
+
+    <section id="map-section">
+        <h2>Prediction Frame</h2>
+        <div id="map-container">
+            <img id="prediction-frame" src="" alt="Detected Disease Image" >
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
