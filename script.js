@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
         fetchDiseaseImage();
     }, 100);
 });
-const API_BASE_URL = "https://c3b8-2401-4900-7b3e-e620-14a3-9b25-df1e-3665.ngrok-free.app"; // Update this
+const API_BASE_URL = "https://033f-2401-4900-7b3e-e620-14a3-9b25-df1e-3665.ngrok-free.app"; // Update this
 
 // Function to fetch disease data from API
 async function fetchDiseaseData() {
